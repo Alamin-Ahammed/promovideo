@@ -1,0 +1,8 @@
+{
+  "name": "promovideo",
+  "version": "0.1.0",
+  "description": "Turn a PR, repo, live site, docs, screenshots or a screen recording into a polished, narrated product presentation video (Remotion + Gemini TTS).",
+  "author": { "name": "Alamin Ahammed" },
+  "license": "MIT",
+  "keywords": ["video", "remotion", "presentation", "product-demo", "release", "voiceover", "tts"]
+}

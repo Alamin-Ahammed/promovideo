@@ -1,0 +1,23 @@
+{
+  "name": "promovideo-video",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "still": "remotion still PromoVideo",
+    "timeline": "remotion compositions --log=info 2>&1 | grep -o 'TIMELINE.*' | sed 's/^TIMELINE//' | head -1 > build/timeline.json",
+    "render:muted": "remotion render PromoVideo build/video-muted.mp4 --muted --concurrency=1"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.533",
+    "@remotion/google-fonts": "4.0.533",
+    "@remotion/transitions": "4.0.533",
+    "puppeteer-core": "^24.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.533"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

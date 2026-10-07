@@ -1,0 +1,14 @@
+{
+  "name": "promovideo",
+  "description": "Narrated product and feature presentation videos made by Claude from PRs, repos, sites, docs or screenshots.",
+  "owner": {
+    "name": "Alamin Ahammed"
+  },
+  "plugins": [
+    {
+      "name": "promovideo",
+      "source": "./",
+      "description": "Narrated product/feature presentation videos from any source."
+    }
+  ]
+}
